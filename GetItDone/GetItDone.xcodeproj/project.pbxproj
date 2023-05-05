@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD8312202A05468B0041C6C1 /* BackgroundGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD83121F2A05468B0041C6C1 /* BackgroundGradientView.swift */; };
+		CD8312222A0546FE0041C6C1 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8312212A0546FE0041C6C1 /* LogoView.swift */; };
+		CD8CCA432A05386000339DED /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8CCA422A05386000339DED /* LoginView.swift */; };
+		CD8CCA472A053BAD00339DED /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8CCA462A053BAD00339DED /* SignupView.swift */; };
 		CDAFEFB62A04407100E001B3 /* GetItDoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAFEFB52A04407100E001B3 /* GetItDoneApp.swift */; };
 		CDAFEFB82A04407100E001B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAFEFB72A04407100E001B3 /* ContentView.swift */; };
 		CDAFEFBA2A04407200E001B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAFEFB92A04407200E001B3 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD83121F2A05468B0041C6C1 /* BackgroundGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradientView.swift; sourceTree = "<group>"; };
+		CD8312212A0546FE0041C6C1 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		CD8CCA422A05386000339DED /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CD8CCA462A053BAD00339DED /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		CDAFEFB22A04407100E001B3 /* GetItDone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetItDone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAFEFB52A04407100E001B3 /* GetItDoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetItDoneApp.swift; sourceTree = "<group>"; };
 		CDAFEFB72A04407100E001B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +41,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD8CCA3E2A0536F100339DED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD8CCA442A053B4500339DED /* Utils */,
+				CD8CCA452A053B7400339DED /* Auth */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD8CCA3F2A0536FC00339DED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD8CCA402A05370500339DED /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CD8CCA442A053B4500339DED /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CD83121F2A05468B0041C6C1 /* BackgroundGradientView.swift */,
+				CD8312212A0546FE0041C6C1 /* LogoView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CD8CCA452A053B7400339DED /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				CD8CCA422A05386000339DED /* LoginView.swift */,
+				CD8CCA462A053BAD00339DED /* SignupView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		CDAFEFA92A04407100E001B3 = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +101,9 @@
 		CDAFEFB42A04407100E001B3 /* GetItDone */ = {
 			isa = PBXGroup;
 			children = (
+				CD8CCA402A05370500339DED /* ViewModel */,
+				CD8CCA3F2A0536FC00339DED /* Model */,
+				CD8CCA3E2A0536F100339DED /* View */,
 				CDAFEFB52A04407100E001B3 /* GetItDoneApp.swift */,
 				CDAFEFB72A04407100E001B3 /* ContentView.swift */,
 				CDAFEFB92A04407200E001B3 /* Assets.xcassets */,
@@ -139,7 +191,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD8CCA472A053BAD00339DED /* SignupView.swift in Sources */,
+				CD8312222A0546FE0041C6C1 /* LogoView.swift in Sources */,
+				CD8CCA432A05386000339DED /* LoginView.swift in Sources */,
 				CDAFEFB82A04407100E001B3 /* ContentView.swift in Sources */,
+				CD8312202A05468B0041C6C1 /* BackgroundGradientView.swift in Sources */,
 				CDAFEFB62A04407100E001B3 /* GetItDoneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
